@@ -1,0 +1,71 @@
+🎈 BubblePop Game – iOS SwiftUI
+
+A fun and interactive bubble-popping game where players tap bubbles for points within a limited time. Built using SwiftUI and following MVVM architecture, BubblePop is fully animated, configurable, and stores high scores locally.
+
+🚀 Features
+✅ Tap bubbles to pop them and earn points
+✅ Combo scoring: pop same-colored bubbles in a row for a 1.5× multiplier
+✅ Countdown timer with customizable duration
+✅ Adjustable max bubbles on screen
+✅ 3...2...1 animated countdown before the game starts
+✅ Bubble pop animation (shrink + fade)
+✅ Floating “+score” popups on bubble tap
+✅ Scoreboard with saved high scores
+✅ Auto return to home screen after 5 seconds of inactivity
+✅ Fully separated Views, ViewModels, and Models (MVVM)
+✅ No overlapping bubbles
+
+🧠 How to Play
+Enter your name on the home screen
+Tap Start
+After a short countdown, the game begins
+Tap bubbles as fast as you can before time runs out
+Your score is saved if it’s one of the best!
+⚙️ App Settings
+You can customize:
+
+Game duration (10 to 60 seconds)
+Max number of bubbles on screen (5 to 15)
+Settings are applied immediately and remembered between games.
+
+💾 Technologies Used
+Swift 5
+SwiftUI
+MVVM Architecture
+UserDefaults for local storage
+Timer-based animation and UI updates
+📁 Project Structure
+BubblePop/
+│
+├── Models/
+│   ├── Bubble.swift
+│   └── HighScore.swift
+│
+├── ViewModels/
+│   └── GameViewModel.swift
+│
+├── Views/
+│   ├── ContentView.swift
+│   ├── SettingsView.swift
+│   └── ScoreboardView.swift
+│
+└── Resources/
+    └── Assets.xcassets (colors, icons, etc.)
+
+🏆 Extended Functionalities Implemented
+ EF1 – Bubble movement with increasing speed ✅ (optional phase previously done)
+ EF2.1 – Countdown animation before game starts
+ EF2.2 – Bubble shrink/fade pop animation
+ EF2.3 – Score popup animation (“+10”)
+ EF3 – Show highest score during gameplay
+ EF4 – Custom settings, return-to-home, and UI polish
+
+📦 Requirements
+Xcode 14+
+iOS 16+ Simulator or Device
+SwiftUI support enabled
+🧪 Future Improvements
+Add sound effects
+Add power-ups (e.g., score multipliers, freeze time)
+Reset high scores button
+Online scoreboard with CloudKit
