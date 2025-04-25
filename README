@@ -21,9 +21,9 @@ Tap Start
 After a short countdown, the game begins
 Tap bubbles as fast as you can before time runs out
 Your score is saved if it’s one of the best!
+
 ⚙️ App Settings
 You can customize:
-
 Game duration (10 to 60 seconds)
 Max number of bubbles on screen (5 to 15)
 Settings are applied immediately and remembered between games.
@@ -34,6 +34,7 @@ SwiftUI
 MVVM Architecture
 UserDefaults for local storage
 Timer-based animation and UI updates
+
 📁 Project Structure
 BubblePop/
 │
@@ -64,6 +65,7 @@ BubblePop/
 Xcode 14+
 iOS 16+ Simulator or Device
 SwiftUI support enabled
+
 🧪 Future Improvements
 Add sound effects
 Add power-ups (e.g., score multipliers, freeze time)
